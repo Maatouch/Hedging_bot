@@ -13,9 +13,6 @@ from urllib.parse import urlencode
 - work with USER_DATA endpoint with no third party dependency
 - work with testnet
 Provide the API key and secret, and it's ready to go
-Because USER_DATA endpoints require signature:
-- call `send_signed_request` for USER_DATA endpoints
-- call `send_public_request` for public endpoints
 
 """
 
